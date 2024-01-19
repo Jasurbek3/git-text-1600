@@ -3,5 +3,38 @@
     margin: 0;
 }
 a{
-    animation-name: none;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.nav-link{
+    display: flex;
+    column-gap: 30px;
+}
+.nav-logo{
+    color: white;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.hearder-content{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.hearder-title{
+    color: yellow;
+    text-transform: uppercase;
+}
+.hearder-text{
+    color: white;
+    font-size: 24px;
 }
